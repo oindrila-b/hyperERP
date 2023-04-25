@@ -12,49 +12,49 @@
          </font>
       </Label>
       <Separator layoutX="41.0" layoutY="55.0" prefHeight="0.0" prefWidth="278.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="92.0" prefHeight="24.0" prefWidth="86.0" text="ITEM NAME">
+      <Label fx:id="itemName" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="92.0" prefHeight="24.0" prefWidth="86.0" text="ITEM NAME">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="145.0" layoutY="92.0" prefHeight="25.0" prefWidth="181.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="145.0" prefHeight="24.0" prefWidth="86.0" text="QUANTITY">
+      <TextField fx:id="itemNameFld" layoutX="145.0" layoutY="92.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="quantity" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="145.0" prefHeight="24.0" prefWidth="86.0" text="QUANTITY">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="145.0" layoutY="145.0" prefHeight="25.0" prefWidth="181.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="201.0" prefHeight="24.0" prefWidth="86.0" text="ITEM PRICE">
+      <TextField fx:id="quantityFld" layoutX="145.0" layoutY="145.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="itemPrice" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="201.0" prefHeight="24.0" prefWidth="86.0" text="ITEM PRICE">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="145.0" layoutY="201.0" prefHeight="25.0" prefWidth="181.0" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="260.0" prefHeight="24.0" prefWidth="86.0" text="SUB TOTAL">
+      <TextField fx:id="itempriceFld" layoutX="145.0" layoutY="201.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="subTotal" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="260.0" prefHeight="24.0" prefWidth="86.0" text="subTotal">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="145.0" layoutY="260.0" prefHeight="25.0" prefWidth="181.0" />
-      <Button layoutX="270.0" layoutY="313.0" mnemonicParsing="false" text="ADD" />
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="382.0" prefHeight="25.0" prefWidth="118.0" text="TOTAL AMOUNT">
+      <TextField fx:id="suvTotalFld" layoutX="145.0" layoutY="260.0" prefHeight="25.0" prefWidth="181.0" />
+      <Button fx:id="addButton" layoutX="270.0" layoutY="313.0" mnemonicParsing="false" text="ADD" />
+      <Label fx:id="totalAmt" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="382.0" prefHeight="25.0" prefWidth="118.0" text="TOTAL AMOUNT">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="154.0" layoutY="382.0" prefHeight="25.0" prefWidth="181.0" />
-      <Label layoutX="41.0" layoutY="442.0" prefHeight="25.0" prefWidth="100.0" text="PAID AMOUNT">
+      <TextField fx:id="totalAmountFld" layoutX="154.0" layoutY="382.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="paidAmt" layoutX="41.0" layoutY="442.0" prefHeight="25.0" prefWidth="100.0" text="PAID AMOUNT">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="154.0" layoutY="442.0" prefHeight="25.0" prefWidth="181.0" />
-      <Label layoutX="41.0" layoutY="495.0" prefHeight="25.0" prefWidth="75.0" text="BALANCE">
+      <TextField fx:id="paidAmtFld" layoutX="154.0" layoutY="442.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="balance" layoutX="41.0" layoutY="495.0" prefHeight="25.0" prefWidth="75.0" text="BALANCE">
          <font>
             <Font name="Caladea Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="154.0" layoutY="495.0" prefHeight="25.0" prefWidth="181.0" />
-      <Button layoutX="265.0" layoutY="538.0" mnemonicParsing="false" text="PRINT" />
+      <TextField fx:id="balanceFld" layoutX="154.0" layoutY="495.0" prefHeight="25.0" prefWidth="181.0" />
+      <Button fx:id="printButton" layoutX="265.0" layoutY="538.0" mnemonicParsing="false" text="PRINT" />
    </children>
 </AnchorPane>
