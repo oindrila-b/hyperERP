@@ -6,6 +6,7 @@ module com.example.hypererp {
     requires validatorfx;
     requires org.kordamp.bootstrapfx.core;
     requires javafx.graphics;
+    requires java.desktop;
 
     opens com.example.hypererp to javafx.fxml;
     exports com.example.hypererp;
